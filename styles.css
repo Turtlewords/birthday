@@ -1,0 +1,121 @@
+body {
+    font-family: 'Happy Monkey', system-ui;
+    text-align: center;
+    color: #ffffff;
+    background: linear-gradient(#a2d2ff, #EFB0C9);
+}
+
+.headWrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black; 
+}
+
+#nick {
+    border-radius: 50%;
+    width: 200px;
+    border: 6px solid #EFB0C9;
+}
+
+#bdayAge {
+    background-color: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+
+}
+
+#bdayDate {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0;
+}
+.gift {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+#giftTitle {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 6px;
+}
+
+#giftHeader {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 6px;
+}
+
+.gift-img {
+    border: 6px solid white;
+    border-radius: 5px;
+    background-image: url("Assets/Present-clipart-7.png");
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+#gift-img-happy:hover {
+    background-image: url("Assets/happy.webp");
+}
+
+.gift2, .gift3, .gift4, .gift5  {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#gift2header, #gift3header, #gift4header, #gift5header {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+#gift-img-hot:hover {
+    background-image: url("Assets/hot.webp");
+}
+
+#gift-img-genius:hover {
+    background-image: url("Assets/genius.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+#gift-img-swag:hover {
+    background-image: url("Assets/swag.webp");
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+#gift-img-cheers:hover {
+    background-image: url("Assets/cheers.webp");
+}
+
+.footer {
+    margin: 50px auto 20px;
+    width: 400px;
+    font-style: italic;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: greenyellow;
+}
